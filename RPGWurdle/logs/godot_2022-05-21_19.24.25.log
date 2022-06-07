@@ -1,0 +1,8 @@
+Godot Engine v3.4.4.stable.official.419e713a2 - https://godotengine.org
+OpenGL ES 3.0 Renderer: Radeon RX 570 Series
+OpenGL ES Batching: ON
+ 
+ERROR: Error opening file 'splash.png'.
+   at: load_image (core/io/image_loader.cpp:55) - Error opening file 'splash.png'.
+ERROR: Non-existing or invalid boot splash at 'splash.png'. Loading default splash.
+   at: setup2 (main/main.cpp:1372) - Non-existing or invalid boot splash at 'splash.png'. Loading default splash.

@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.seanhlewis.rpgwordle"
+4    android:installLocation="auto"
+5    android:versionCode="2"
+6    android:versionName="1.1" > <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <supports-screens
+11-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:12:5-16:40
+12        android:largeScreens="true"
+12-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:15:9-36
+13        android:normalScreens="true"
+13-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:14:9-37
+14        android:smallScreens="true"
+14-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:13:9-36
+15        android:xlargeScreens="true" />
+15-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:16:9-37
+16
+17    <uses-feature
+17-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:10:5-78
+18        android:glEsVersion="0x00030000"
+18-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:10:19-51
+19        android:required="true" />
+19-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:10:52-75
+20
+21    <instrumentation
+21-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:11:5-16:60
+22        android:name=".GodotInstrumentation"
+22-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:13:9-45
+23        android:icon="@mipmap/icon"
+23-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:14:9-36
+24        android:label="@string/godot_project_name_string"
+24-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:15:9-58
+25        android:targetPackage="com.seanhlewis.rpgwordle" />
+25-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\src\release\AndroidManifest.xml:16:9-57
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->[GodotPlayGamesServices.release.aar] C:\Users\sean\.gradle\caches\transforms-3\918bde90d7975793083e4cdb3c3e3a73\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:11:5-67
+27-->[GodotPlayGamesServices.release.aar] C:\Users\sean\.gradle\caches\transforms-3\918bde90d7975793083e4cdb3c3e3a73\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:11:22-64
+28
+29    <application
+29-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:5-100:19
+30        android:allowBackup="false"
+30-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:68-95
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.2.0] C:\Users\sean\.gradle\caches\transforms-3\f468396e8f36529b92fb98842a149f3b\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+32        android:hasFragileUserData="false"
+32-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:118-152
+33        android:icon="@mipmap/icon"
+33-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:238-265
+34        android:isGame="true"
+34-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:96-117
+35        android:label="@string/godot_project_name_string"
+35-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:18-67
+36        android:requestLegacyExternalStorage="false" >
+36-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:30:153-197
+37        <activity
+37-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:72:9-94:20
+38            android:name="com.godot.game.GodotApp"
+38-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:73:13-37
+39            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+39-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:79:13-141
+40            android:excludeFromRecents="false"
+40-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:77:13-47
+41            android:label="@string/godot_project_name_string"
+41-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:74:13-62
+42            android:launchMode="singleTask"
+42-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:76:13-44
+43            android:resizeableActivity="false"
+43-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:80:13-47
+44            android:screenOrientation="portrait"
+44-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:78:13-50
+45            android:theme="@style/GodotAppSplashTheme" >
+45-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:75:13-55
+46            <intent-filter>
+46-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:86:13-93:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:87:17-69
+47-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:87:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:88:17-77
+49-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:88:27-74
+50
+51                <!--
+52                Enable access to OpenXR on Oculus mobile devices, no-op on other Android
+53                platforms.
+54                -->
+55                <category android:name="com.oculus.intent.category.VR" />
+55-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:92:17-74
+55-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:92:27-71
+56            </intent-filter>
+57        </activity>
+58        <!-- Records the version of the Godot editor used for building -->
+59        <meta-data
+60            android:name="org.godotengine.editor.version"
+61            android:value="3.4.4.stable" />
+62        <meta-data
+62-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:61:9-62:46
+63            android:name="com.google.android.gms.games.APP_ID"
+63-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:61:20-70
+64            android:value="@string/app_id" />
+64-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:62:13-43
+65        <meta-data
+65-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:64:7-65:68
+66            android:name="com.google.android.gms.version"
+66-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:64:18-63
+67            android:value="@integer/google_play_services_version" />
+67-->C:\Users\sean\Downloads\godot-wordle-windows\GodotWordle\android\build\AndroidManifest.xml:65:13-66
+68        <meta-data
+68-->[GodotPlayGamesServices.release.aar] C:\Users\sean\.gradle\caches\transforms-3\918bde90d7975793083e4cdb3c3e3a73\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:14:9-16:74
+69            android:name="org.godotengine.plugin.v1.GodotPlayGamesServices"
+69-->[GodotPlayGamesServices.release.aar] C:\Users\sean\.gradle\caches\transforms-3\918bde90d7975793083e4cdb3c3e3a73\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:15:13-76
+70            android:value="io.cgisca.godot.gpgs.PlayGameServicesGodot" /> <!-- Records the version of the Godot library -->
+70-->[GodotPlayGamesServices.release.aar] C:\Users\sean\.gradle\caches\transforms-3\918bde90d7975793083e4cdb3c3e3a73\transformed\jetified-GodotPlayGamesServices.release\AndroidManifest.xml:16:13-71
+71        <meta-data
+71-->[godot-lib.release.aar] C:\Users\sean\.gradle\caches\transforms-3\116885a8b5e7a96710277a2f2a84ccfd\transformed\jetified-godot-lib.release\AndroidManifest.xml:19:9-21:44
+72            android:name="org.godotengine.library.version"
+72-->[godot-lib.release.aar] C:\Users\sean\.gradle\caches\transforms-3\116885a8b5e7a96710277a2f2a84ccfd\transformed\jetified-godot-lib.release\AndroidManifest.xml:20:13-59
+73            android:value="3.4.4.stable" />
+73-->[godot-lib.release.aar] C:\Users\sean\.gradle\caches\transforms-3\116885a8b5e7a96710277a2f2a84ccfd\transformed\jetified-godot-lib.release\AndroidManifest.xml:21:13-41
+74
+75        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+75-->[godot-lib.release.aar] C:\Users\sean\.gradle\caches\transforms-3\116885a8b5e7a96710277a2f2a84ccfd\transformed\jetified-godot-lib.release\AndroidManifest.xml:23:9-80
+75-->[godot-lib.release.aar] C:\Users\sean\.gradle\caches\transforms-3\116885a8b5e7a96710277a2f2a84ccfd\transformed\jetified-godot-lib.release\AndroidManifest.xml:23:18-77
+76
+77        <activity
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+78            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+78-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+79            android:excludeFromRecents="true"
+79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+82        <!--
+83            Service handling Google Sign-In user revocation. For apps that do not integrate with
+84            Google Sign-In, this service will never be started.
+85        -->
+86        <service
+86-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+87            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+87-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+88            android:exported="true"
+88-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+89            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+89-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+90            android:visibleToInstantApps="true" />
+90-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\sean\.gradle\caches\transforms-3\0464ab3f85cbed706e0484eed3d5bf3f\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\sean\.gradle\caches\transforms-3\9732c2f4c68e5dee874741bc241accfc\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\sean\.gradle\caches\transforms-3\9732c2f4c68e5dee874741bc241accfc\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\sean\.gradle\caches\transforms-3\9732c2f4c68e5dee874741bc241accfc\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\sean\.gradle\caches\transforms-3\9732c2f4c68e5dee874741bc241accfc\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+96    </application>
+97
+98</manifest>
